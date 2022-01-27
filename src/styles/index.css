@@ -10,3 +10,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: grey;
+}
+.trafficlight {
+    background-color: black;
+    margin: auto;
+    height: 380px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+.light {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: 12%;
+        
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
+.switchOn {
+    box-shadow: 0 0 10px 10px #aef4af;
+}
