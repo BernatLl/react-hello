@@ -11,7 +11,7 @@
 
 */
 body{
-    background-color: grey;
+    background-image: url(http://3.bp.blogspot.com/-r9YGYumSMnY/UkRDl-Jog2I/AAAAAAAAUTY/jj2pLsfZOE0/s1600/Descargar+Pack+Wallpapers+de+Coches+%2528193%2529.jpg);
 }
 .trafficlight {
     background-color: black;
@@ -21,6 +21,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 5%;
    
     
 }
