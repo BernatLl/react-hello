@@ -9,7 +9,7 @@ const Home = () => {
 	};
 	return (
 		<div className="trafficlight">
-			<div className={"light red glow"} onClick={glowOn}></div>
+			<div className={"light red glow"} onClick={()=>glowOn()}></div>
 			<div className={"light yellow glow"}></div>
 			<div className={"light green glow"}></div>
 		</div>
